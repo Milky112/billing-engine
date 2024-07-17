@@ -1,0 +1,7 @@
+database: 
+  dabatase_conn: sql12.freesqldatabase.com
+  database_user: sql12719950
+  database_password: kNA24Kxg5f
+  database_port: 3306
+  database_dsn: mysql://sql12719950:kNA24Kxg5f@sql12.freesqldatabase.com:3036/sql12719950
+user: 1
