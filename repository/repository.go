@@ -6,7 +6,6 @@ import (
 
 	"amartha.com/billing/model"
 	_ "github.com/go-sql-driver/mysql"
-	_ "github.com/lib/pq"
 )
 
 type Repository struct {
@@ -20,8 +19,11 @@ type NewRepositoryOptions struct {
 type RepositoryInterface interface {
 	GetDatabase() *sql.DB
 
-	GetTransactionScheduleByUserID(ctx context.Context, userID int) ([]model.TransactionSchedule, error)
+	GetTransactionScheduleByUserID(ctx context.Context, userID int, maxSchedule int) ([]model.TransactionSchedule, error)
 	GetUserInfo(ctx context.Context, userID int) (model.UserInfo, error)
+	InsertLoanSchedule(ctx context.Context, userID int, transactionID int) error
+	InsertTransaction(ctx context.Context, userID int, amount int, interest int) (int, error)
+	UpdateTransactionByID(ctx context.Context, loanPayment, transactionID int) error
 }
 
 func NewRepository(opts NewRepositoryOptions) *Repository {

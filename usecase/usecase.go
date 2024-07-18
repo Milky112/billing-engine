@@ -9,6 +9,7 @@ import (
 
 type UsecaseInterface interface {
 	GetSchedule(ctx context.Context, productID int) (model.TransactionScheduleResponse, error)
+	AcquireLoan(ctx context.Context, userID int) error
 }
 
 type Usecase struct {

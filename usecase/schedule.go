@@ -15,7 +15,7 @@ func (uc *Usecase) GetSchedule(ctx context.Context, userID int) (model.Transacti
 	}
 
 	fmt.Println(userInfo)
-	paymentSchedule, _ := uc.Repository.GetTransactionScheduleByUserID(ctx, userID)
+	paymentSchedule, _ := uc.Repository.GetTransactionScheduleByUserID(ctx, userID, 50)
 	fmt.Println(paymentSchedule)
 
 	response := model.TransactionScheduleResponse{

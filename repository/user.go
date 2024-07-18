@@ -13,8 +13,8 @@ func (r *Repository) GetUserInfo(ctx context.Context, userID int) (model.UserInf
 	var (
 		result model.UserInfo
 	)
-
-	err := r.Db.QueryRowContext(ctx, queryGetUserByID, userID).Scan(&result.Name, &result.Email)
+	result.UserID = userID
+	err := r.Db.QueryRowContext(ctx, queryGetUserByID, userID).Scan(&result.Name, &result.Email, &result.Status)
 
 	if err == sql.ErrNoRows {
 		return result, errors.New("USER NOT FOUND")

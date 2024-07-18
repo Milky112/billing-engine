@@ -1,0 +1,40 @@
+Common Logger:	2024/07/16 22:05:26 main.go:19: Server is Running
+Common Logger:	2024/07/17 01:04:26 main.go:20: Server is Running
+Common Logger:	2024/07/17 01:12:05 main.go:20: Server is Running
+Common Logger:	2024/07/17 01:14:24 main.go:20: Server is Running
+Common Logger:	2024/07/17 01:19:05 main.go:20: Server is Running
+Common Logger:	2024/07/17 01:28:26 main.go:20: Server is Running
+Common Logger:	2024/07/17 21:04:32 main.go:23: Server is Running
+Common Logger:	2024/07/17 21:11:08 main.go:23: Server is Running
+Common Logger:	2024/07/17 21:12:46 main.go:23: Server is Running
+Common Logger:	2024/07/17 21:47:51 main.go:23: Server is Running
+Common Logger:	2024/07/17 21:49:56 main.go:23: Server is Running
+Common Logger:	2024/07/17 21:49:56 main.go:27: Error Start Server listen tcp :8080: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+Common Logger:	2024/07/17 21:49:56 main.go:30: Shuting down on progress...
+Common Logger:	2024/07/17 21:50:09 main.go:23: Server is Running
+Common Logger:	2024/07/17 21:50:09 main.go:27: Error Start Server listen tcp :8080: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+Common Logger:	2024/07/17 21:50:09 main.go:30: Shuting down on progress...
+Common Logger:	2024/07/17 21:50:32 main.go:23: Server is Running
+Common Logger:	2024/07/17 21:51:15 main.go:23: Server is Running
+Common Logger:	2024/07/17 21:54:23 main.go:23: Server is Running
+Common Logger:	2024/07/17 21:56:36 main.go:23: Server is Running
+Common Logger:	2024/07/17 22:03:11 main.go:23: Server is Running
+Common Logger:	2024/07/17 22:04:25 main.go:23: Server is Running
+Common Logger:	2024/07/17 22:12:08 main.go:23: Server is Running
+Common Logger:	2024/07/17 22:14:18 main.go:23: Server is Running
+Common Logger:	2024/07/17 22:19:09 main.go:23: Server is Running
+Common Logger:	2024/07/17 22:28:47 main.go:23: Server is Running
+Common Logger:	2024/07/17 22:31:36 main.go:23: Server is Running
+Common Logger:	2024/07/17 22:39:22 main.go:23: Server is Running
+Common Logger:	2024/07/17 22:45:21 main.go:27: Server is Running
+Common Logger:	2024/07/17 22:48:54 main.go:27: Server is Running
+Common Logger:	2024/07/18 00:56:36 main.go:27: Server is Running
+Common Logger:	2024/07/18 01:01:29 main.go:27: Server is Running
+Common Logger:	2024/07/18 01:06:44 main.go:27: Server is Running
+Common Logger:	2024/07/18 01:10:12 main.go:27: Server is Running
+Common Logger:	2024/07/18 01:11:26 main.go:27: Server is Running
+Common Logger:	2024/07/18 12:09:15 main.go:27: Server is Running
+Common Logger:	2024/07/18 12:24:49 main.go:27: Server is Running
+Common Logger:	2024/07/18 15:19:40 main.go:27: Server is Running
+Common Logger:	2024/07/18 15:21:49 main.go:27: Server is Running
+Common Logger:	2024/07/18 15:23:25 main.go:27: Server is Running

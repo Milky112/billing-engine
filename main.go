@@ -58,8 +58,17 @@ func routes(router *httprouter.Router, sqlDB *sql.DB) {
 
 	sqlDB = repo.Db
 
-	router.GET("/schedule", func(w http.ResponseWriter, r *http.Request, p httprouter.Params) {
+	router.GET("/GetOutstanding", func(w http.ResponseWriter, r *http.Request, p httprouter.Params) {
 		h.GetSchedule(w, r, p)
+	})
+	router.POST("/AcquireLoan", func(w http.ResponseWriter, r *http.Request, p httprouter.Params) {
+		h.AcquireLoan(w, r, p)
+	})
+	router.POST("/MakePayment", func(w http.ResponseWriter, r *http.Request, p httprouter.Params) {
+		h.AcquireLoan(w, r, p)
+	})
+	router.POST("/UserInfo", func(w http.ResponseWriter, r *http.Request, p httprouter.Params) {
+		h.AcquireLoan(w, r, p)
 	})
 }
 
